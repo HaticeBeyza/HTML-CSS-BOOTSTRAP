@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+      .form {
+        width: 900px;
+      }
+
+      .form table {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="form">
+      <tr>
+        <td>Adı</td>
+        <td>
+          <p>
+            <input type="text" id="ad" />
+          </p>
+        </td>
+
+        <td rowspan="2">Hobiler</td>
+        <td rowspan="2">
+          <p>
+            <input type="checkbox" name="futbol" id="futbol" value="futbol" />
+            <label for="futbol">Futbol</label><br />
+
+            <input
+              type="checkbox"
+              name="voleybol"
+              id="voleybol"
+              value="voleybol"
+            />
+            <label for="voleybol">Voleybol</label><br />
+
+            <input
+              type="checkbox"
+              name="basketbol"
+              id="basketbol"
+              value="basketbol"
+            />
+            <label for="basketbol">Basketbol</label>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Soyadı</td>
+        <td>
+          <p>
+            <input type="text" id="soyad" />
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Cinsiyet</td>
+        <td>
+          <p>
+            <label for="erkek">Bay</label>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+
+            <label for="kadin">Bayan</label>
+            <input type="radio" name="cinsiyet" id="kadin" value="bayan" />
+          </p>
+        </td>
+
+        <td>Profil Fotoğrafı</td>
+        <td>
+          <p>
+            <input type="file" name="profil" id="profil" />
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>İlçe</td>
+        <td>
+          <p>
+            <select name="ilc" id="ilce">
+              <option value="1">Akyurt</option>
+              <option value="2">Altındağ</option>
+              <option value="3">Ayaş</option>
+              <option value="4">Bala</option>
+              <option value="5">Beypazarı</option>
+              <option value="6">Çamlıdere</option>
+              <option value="7">Çankaya</option>
+              <option value="8">Çubuk</option>
+              <option value="9">Elmadağ</option>
+              <option value="10">Etimesgut</option>
+              <option value="11">Evren</option>
+              <option value="12">Gölbaşı</option>
+              <option value="13">Güdül</option>
+              <option value="14">Haymana</option>
+              <option value="15">Kahramankazan</option>
+              <option value="16">Kalecik</option>
+              <option value="17">Keçiören</option>
+              <option value="18">Kızılcahamam</option>
+              <option value="19">Mamak</option>
+              <option value="20">Nallıhan</option>
+              <option value="21">Polatlı</option>
+              <option value="22">Pursaklar</option>
+              <option value="23">Sincan</option>
+              <option value="24">Şereflikoçhisar</option>
+              <option value="25">Yenimahalle</option>
+            </select>
+          </p>
+        </td>
+        <td>Doğum Tarihi</td>
+        <td>
+          <p>
+            <input type="date" name="dogum" id="dogum" />
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Eposta</td>
+        <td>
+          <p>
+            <input type="text" id="eposta" />
+          </p>
+        </td>
+        <td rowspan="3">Adres</td>
+        <td rowspan="3">
+          <p>
+            <textarea name="adres" id="adres" cols="20" rows="5"></textarea>
+          </p>
+          <input type="submit" value="Kayıt ol" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>Kişisel Site</td>
+        <td>
+          <p>
+            <input type="text" id="kisisel" />
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Telefon</td>
+        <td>
+          <p>
+            <input type="text" id="telefon" />
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

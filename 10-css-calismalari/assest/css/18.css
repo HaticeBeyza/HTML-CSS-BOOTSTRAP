@@ -1,0 +1,31 @@
+.kutu {
+  /* width: 70px;
+  height: 70px; */
+  background-color: rgb(205, 187, 223);
+  border: 1px solid rgb(150, 150, 235);
+  /*margin-right: 15px;
+  padding: 10px; /* kutular buyudu 10 px */
+}
+
+.kutu1 {
+  flex: 1;
+}
+
+.kutu2 {
+  flex: 3; /* 2. kutu daha fazla yer kaplıyor */
+}
+
+.kutu3 {
+  flex: 1;
+}
+
+.kutular {
+  display: flex; /* yatay hale getirmis kutulari */
+  align-items: center;
+  flex-direction: row; /* dikey hale getiriyor (column)*/
+  /* flex-wrap: wrap; /* kutular sıgmayınca alta gecer (wrap)
+  (nowrap) --> sıkıstırıyor ALTA GECİRMİYOR !!! */
+  justify-content: space-between; /* BOSLUK VERİYOR SPACE İLE CENTERLA ORTALIYOR RİGHT, LEFT..*/
+  background-color: rgb(201, 194, 194);
+  height: 300px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaman Çizelgesi</title>
+
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      .ders_programi {
+        width: 600px;
+      }
+
+      .baslik {
+        background-color: rgb(44, 43, 43);
+        color: white;
+      }
+      .acik_renk {
+        background-color: rgb(224, 222, 222);
+      }
+      tbody {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="ders_programi" cellpadding="5">
+      <tbody>
+        <!-- "align" yazilari ortalamak icin -->
+        <tr class="baslik">
+          <td colspan="7">Zaman Çizelgesi</td>
+        </tr>
+        <tr>
+          <td>Günler</td>
+          <td></td>
+          <td>Ptesi</td>
+          <td>Salı</td>
+          <td>Çars</td>
+          <td>Perş</td>
+          <td>Cuma</td>
+        </tr>
+        <tr class="acik_renk">
+          <td rowspan="5">Saatler</td>
+          <td>1</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Fen</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Fen</td>
+        </tr>
+        <tr class="acik_renk">
+          <td colspan="6">DİNLENME</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sosyal</td>
+          <td>Müzik</td>
+          <td>Sosyal</td>
+          <td>Fen</td>
+          <td>Din</td>
+        </tr>
+        <tr class="acik_renk">
+          <td>4</td>
+          <td>Sosyal</td>
+          <td>Beden</td>
+          <td>Sosyal</td>
+          <td>Fen</td>
+          <td>Din</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

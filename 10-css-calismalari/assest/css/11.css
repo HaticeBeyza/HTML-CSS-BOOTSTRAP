@@ -1,0 +1,24 @@
+body {
+  background-image: url(../css/img/more-leaves.png); /* body'i tamamen bununla kapladı */
+} /* bütün sayfanın arka planını döşedi */
+
+.arkaplan {
+  width: 100%;
+  height: 300px;
+  background-image: url(../css/img/right-arrow.png); /* arkaplana resim ekleme */
+  border: 1px solid red;
+  background-repeat: no-repeat; /* no-repeat -> tekrar olmasın yani resim tekrar etmesin */
+  /* x -> yatay olarak dolduruyor y -> dikey olarak */
+  background-position: right bottom; /* yatayda center dikeyde center dur diyoruz pozisyonunu belirliyoruz */
+}
+
+/* Bisiklet süren kızı ortalamaya calıstık */
+.arkaplan2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../css/img/image-05.jpg);
+  background-size: contain; /* resmin tamamını gösteriyor ama kenarlarında bosluk kalıyor */
+  background-repeat: no-repeat; /* tekrar etmesini engelledik */
+  background-position: center center;
+  border: 1px solid red;
+}

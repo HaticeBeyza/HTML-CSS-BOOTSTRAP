@@ -1,0 +1,19 @@
+.kutu {
+  font-size: 25px;
+  color: red;
+}
+
+.menu {
+  display: none; /* 568 px den kucuk olunca gozukmuyor telefon modunda gozukuyor 568px ve ustunde*/
+}
+
+@media (min-width: 568px) {
+  .kutu {
+    font-size: 35px;
+    color: royalblue; /* 568px altında yazı kırmızıya donuyor */
+  }
+
+  .menu {
+    display: block; /* yukarıda gozukmuyordu 568px de gozukuyor */
+  }
+}

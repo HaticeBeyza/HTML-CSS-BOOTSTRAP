@@ -1,0 +1,19 @@
+.text-box {
+  display: inline-block; /* icindeki eleman ne kadar yer kaplıyorsa kutucuk o kadar olsun */
+  border: 1px solid red;
+  position: relative; /* div'in parenti oldugu icin position: relative yapmalıyız 
+  CSS KURALIIII !!!!!!*/
+  /* relative ile emojiye parentte oldugunu soyluyoruz */
+}
+
+.text-box .fa-search {
+  position: absolute; /* emojiyi kutunun dısına attı  */
+  right: 5px; /* bu degerleri kullanarak emojiyi istedigimiz gibi yerlestirebiliriz */
+  top: 2px;
+}
+
+.text-box input {
+  padding-right: 30px;
+  border: 1px solid red;
+  border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.kutu {
+  background-color: red;
+  text-align: right; /* dıs kutuyu ortalıyor ya da saga sola hizakıyor*/
+}
+.kutu b {
+  background-color: rgb(158, 158, 202);
+  text-align: center; /* Merhaba kutucugunun icinde merhaba yazısını ortaladı !!!!!! */
+}
+
+.kutu2 {
+  margin-top: 20px; /* ustteki kutu ile arasına mesafe koyduk */
+  background-color: crimson;
+  text-align: center;
+}
+
+.kutu2 p {
+  background-color: cyan;
+  width: 200px;
+  margin: auto; /* ortaladi */
+  text-align: center; /* Merhabayı ortaladık */
+}

@@ -1,0 +1,28 @@
+.menu ul {
+  display: flex; /* yan yana getirdi */
+  list-style: none;
+  justify-content: center; /* araları actık */
+  padding: 0;
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.menu li {
+  border-right: 1px solid gray; /* dik cizgi koyduk yazıların sagına */
+}
+
+.menu .ilk {
+  border-left: 1px solid gray; /* ilk'in soluna dik cizgi koy dedik */
+}
+
+.menu {
+  background-color: lightcoral;
+  border-radius: 10px;
+  border: 1px solid rgb(235, 182, 182); /* kutunun kenar cizgileri */
+}

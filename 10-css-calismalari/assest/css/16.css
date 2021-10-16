@@ -1,0 +1,6 @@
+.fa-whatsapp {
+  font-size: 40px;
+  position: fixed;
+  right: 20px; /* sagdan 0 alttan 20 demek */
+  bottom: 20px;
+}

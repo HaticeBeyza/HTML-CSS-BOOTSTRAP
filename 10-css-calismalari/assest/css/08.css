@@ -1,0 +1,22 @@
+.menu ul {
+  list-style: nones;
+}
+/* inline-block yan yana hale getiriyor */
+.menu li {
+  display: inline-block;
+}
+
+/* border-radius: 10px; -> kenarları yuvarlak hale getiriyor */
+.menu a {
+  text-decoration: none;
+  background-color: rgb(179, 174, 174);
+  color: black;
+  padding: 8px 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+/* hover ile ustun egelindiginde koyu ve yazıyı da beyaz yaptık */
+.menu a:hover {
+  background-color: rgb(94, 92, 92);
+  color: white;
+}

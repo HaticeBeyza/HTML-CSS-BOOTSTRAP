@@ -1,0 +1,31 @@
+.menu {
+  width: 200px; /* .menude yapınca butun hepsini etkiliyor 200px bir alanda oluyor hersey */
+}
+
+.menu .buton {
+  background-color: rgb(112, 110, 110);
+  text-align: center; /* ortaladik  */
+  padding: 3px 2px;
+  border-radius: 5px; /* kenarlarını yuvarlakşastırdım */
+}
+
+/*
+.menu .buton:hover ul{
+    display: block;
+}
+
+-> Bu sekilde olmaz cunku menunun icindeki buton ve butonun icindeki ul diyor ama butonun icinde ul yok calismaz
+*/
+
+.menu:hover ul {
+  /* Menünün icindeki ul'leri Ürünlere geince gorunur yaptık */
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0; /* default olan degeri yani ortadaydı yazilar kenara yanastirdik */
+  border: 1px solid rgb(112, 110, 110);
+  margin: 0; /* Ürünler kutusu ile diger kutu ayriydi "margin" ile birlesik yaptık */
+  display: none; /* Notebook Klavye... yazan kutucugu yok ettik yukarıda hover ile ürünlere gelince gözükücek*/
+}

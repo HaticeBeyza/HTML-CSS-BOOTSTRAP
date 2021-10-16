@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hücre Birlestirme</title>
+
+    <style>
+      .tablo {
+        width: 50%;
+        background-color: gray;
+      }
+
+      .tablo td {
+        background-color: rgb(218, 129, 70);
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+
+    <table class="tablo">
+      <!-- 5 satır(tr) 3 sutun(td) olusturduk -->
+      <tr>
+        <td rowspan="3">1</td>
+        <!-- ilk sutunun 1, 2 ve 3. satirlarin 
+        ilk sutununu birlestirdi -->
+        <td>.</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td colspan="2">x</td>
+        <!-- x ve y hucrelerini birlestiricez (2likbir hucresin demekmiş)-->
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+      </tr>
+      <tr>
+        <td colspan="3">a</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.kutu1 {
+  width: 70px;
+  height: 70px;
+  background-color: darkorange;
+  top: 100px;
+  position: relative; /* Mavi kutu ustten 100px asagiya geldi */
+  z-index: 2;
+}
+
+/* Blok elemanlar fazla yer kaplarmıs  o yuzden width ve height yazdık */
+
+.kutu2 {
+  width: 70px;
+  height: 70px;
+  background-color: darkseagreen;
+  position: relative;
+  z-index: 11;
+}

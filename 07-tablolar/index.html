@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablolar</title>
+
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .urun_listesi {
+        width: 400px;
+        background-color: rgb(196, 196, 196);
+      }
+
+      .urun_listesi thead {
+        background-color: rgb(39, 38, 38);
+        color: white;
+      }
+
+      .acik_renk{
+          background-color: rgb(236, 236, 236);
+      }
+
+      tbody {
+        background-color: rgb(201, 201, 201);
+      }
+    </style>
+  </head>
+  <body>
+    <table class="urun_listesi">
+      <!-- yukarıdaki table bu table nutun tabloyu degistirmek istersek table-->
+      <thead>
+        <!-- thead degistirmek yukarisi icin istersek -->
+        <tr>
+          <!-- satır olusturmak icin "tr" -->
+          <th>
+            <!-- baslık kısmı icin "th"-->
+            S.N.
+          </th>
+          <th>Ürün adı</th>
+          <th>Fiyat</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- tr*6>td*3 -->
+        <tr>
+          <td>1</td>
+          <!-- 1. satır bura -->
+          <td>Notebook</td>
+          <td>1000$</td>
+        </tr>
+        <tr class="acik_renk">
+          <td>2</td>
+          <!-- 2. satır bura -->
+          <td>Mouse</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <!-- 3. satır bura -->
+          <td>Klavye</td>
+          <td>5$</td>
+        </tr>
+        <tr class="acik_renk">
+          <td>4</td>
+          <!-- 4. satır bura -->
+          <td>Monitör</td>
+          <td>5$</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <!-- 5. satır bura -->
+          <td>Adaptör</td>
+          <td>5$</td>
+        </tr>
+        <tr class="acik_renk">
+          <td>6</td>
+          <!-- 6. satır bura -->
+          <td>Ses</td>
+          <td>5$</td>
+        </tr>
+      </tbody>
+
+      <tfoot></tfoot>
+    </table>
+
+    <table>
+<thead>
+    <tr>
+            <th>S.N.</th>
+              <th>Ürün adı</th>
+              <th>Fiyat</th>
+            </tr>
+          </thead>
+    
+          <tbody>
+            <!-- tr*6>td*3 -->
+            <tr>
+              <td>1</td>
+              <!-- 1. satır bura -->
+              <td>Notebook</td>
+              <td>1000$</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <!-- 2. satır bura -->
+              <td>Mouse</td>
+              <td>5$</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <!-- 3. satır bura -->
+              <td>Klavye</td>
+              <td>5$</td>
+            </tr>
+    </tr>
+</thead>
+    </table>
+  </body>
+</html>

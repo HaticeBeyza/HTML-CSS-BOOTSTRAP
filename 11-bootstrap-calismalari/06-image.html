@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- div.container>div.row>div.col*3 -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- 3 kolon yaptık ama resimler buyuk olmadı -->
+          <img src="img/slider01.jpg" alt="" class="img-fluid" />
+          <!-- img-fluid -> otomatik konumlandırıyor -->
+        </div>
+        <div class="col">
+          <img src="img/slider02.jpg" alt="" class="img-thumbnail" />
+          <!-- img-thumbnail -> resmi biraz kucultup cerceve ekledi -->
+        </div>
+        <div class="col">
+          <img src="img/slider03.jpg" alt="" class="img-fluid rounded" />
+          <!-- img-fluid rounded -> resmin kosesini yuvarlaklastırmak icin -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
